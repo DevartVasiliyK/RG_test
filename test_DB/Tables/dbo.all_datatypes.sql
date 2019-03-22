@@ -46,6 +46,7 @@ CREATE TABLE [dbo].[all_datatypes]
 [time] [time] NULL,
 [rowversion] [timestamp] NULL
 ) ON [PRIMARY]
+ TEXTIMAGE_ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[all_datatypes] ADD CONSTRAINT [PK__all_data__C37CA2556FE0A88A] PRIMARY KEY CLUSTERED  ([pk_int_]) ON [PRIMARY]
 GO
